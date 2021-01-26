@@ -1,0 +1,39 @@
+--
+-- File generated with SQLiteStudio v3.2.1 on ter jan 26 05:40:03 2021
+--
+-- Text encoding used: System
+--
+PRAGMA foreign_keys = off;
+BEGIN TRANSACTION;
+
+-- Table: ABASTECIMENTO
+CREATE TABLE ABASTECIMENTO (
+    Cod_Abastecimento  INTEGER         PRIMARY KEY AUTOINCREMENT
+                                       NOT NULL,
+    Data_Abastecimento DATE            NOT NULL,
+    Cod_Tanque         INTEGER         NOT NULL,
+    Nome_Combustivel   VARCHAR (30)    NOT NULL,
+    Cod_Bomba          INTEGER         NOT NULL,
+    Qtd_Litros         DOUBLE          NOT NULL,
+    Valor_Venda        NUMERIC (18, 4) NOT NULL,
+    Imposto_Venda      NUMERIC (18, 4) NOT NULL
+);
+
+INSERT INTO ABASTECIMENTO (Cod_Abastecimento, Data_Abastecimento, Cod_Tanque, Nome_Combustivel, Cod_Bomba, Qtd_Litros, Valor_Venda, Imposto_Venda) VALUES (1, '2021-01-25', 1, 'Gasolina', 1, 123.14, 1234.24, 160.4512);
+INSERT INTO ABASTECIMENTO (Cod_Abastecimento, Data_Abastecimento, Cod_Tanque, Nome_Combustivel, Cod_Bomba, Qtd_Litros, Valor_Venda, Imposto_Venda) VALUES (2, '2021-01-25', 1, 'Gasolina', 1, 654.251, 8411.232, 1093.46016);
+INSERT INTO ABASTECIMENTO (Cod_Abastecimento, Data_Abastecimento, Cod_Tanque, Nome_Combustivel, Cod_Bomba, Qtd_Litros, Valor_Venda, Imposto_Venda) VALUES (3, '2021-01-25', 1, 'Gasolina', 1, 654.251, 8411.232, 1093.46016);
+INSERT INTO ABASTECIMENTO (Cod_Abastecimento, Data_Abastecimento, Cod_Tanque, Nome_Combustivel, Cod_Bomba, Qtd_Litros, Valor_Venda, Imposto_Venda) VALUES (4, '2021-01-25', 2, 'Óleo Diesel', 2, 54.0, 26.5, 3.445);
+
+-- Table: TANQUE
+CREATE TABLE TANQUE (
+    Cod_Tanque       INTEGER      PRIMARY KEY AUTOINCREMENT
+                                  NOT NULL,
+    Nome_Combustivel VARCHAR (30) NOT NULL,
+    Qtd_Bombas       INTEGER      NOT NULL
+);
+
+INSERT INTO TANQUE (Cod_Tanque, Nome_Combustivel, Qtd_Bombas) VALUES (1, 'Gasolina', 2);
+INSERT INTO TANQUE (Cod_Tanque, Nome_Combustivel, Qtd_Bombas) VALUES (2, 'Óleo Diesel', 2);
+
+COMMIT TRANSACTION;
+PRAGMA foreign_keys = on;

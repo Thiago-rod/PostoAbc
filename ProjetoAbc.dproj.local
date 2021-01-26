@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/01/24 13:32:45.000.860,=C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/01/24 16:30:04.000.306,=C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/01/24 16:33:27.000.666,C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.dfm=D:\Projetos\Posto ABC\Fonte\UPrincipal.dfm</Transaction>
+    <Transaction>2021/01/24 16:33:27.000.666,C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Unit1.pas=D:\Projetos\Posto ABC\Fonte\UPrincipal.pas</Transaction>
+    <Transaction>2021/01/24 16:33:42.000.314,C:\Users\Thiago\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Projetos\Posto ABC\Fonte\ProjetoAbc.dproj</Transaction>
+    <Transaction>2021/01/24 17:17:05.000.391,=D:\Projetos\Posto ABC\Fonte\Unit1.pas</Transaction>
+    <Transaction>2021/01/24 17:17:47.000.586,D:\Projetos\Posto ABC\Fonte\URegistraVenda.pas=D:\Projetos\Posto ABC\Fonte\Unit1.pas</Transaction>
+    <Transaction>2021/01/24 17:17:47.000.586,D:\Projetos\Posto ABC\Fonte\URegistraVenda.dfm=D:\Projetos\Posto ABC\Fonte\Unit1.dfm</Transaction>
+    <Transaction>2021/01/24 17:19:08.000.465,=D:\Projetos\Posto ABC\Fonte\Unit1.pas</Transaction>
+    <Transaction>2021/01/24 17:20:30.000.586,D:\Projetos\Posto ABC\Fonte\URelatorioAbastecimentoPeriodo.dfm=D:\Projetos\Posto ABC\Fonte\Unit1.dfm</Transaction>
+    <Transaction>2021/01/24 17:20:30.000.586,D:\Projetos\Posto ABC\Fonte\URelatorioAbastecimentoPeriodo.pas=D:\Projetos\Posto ABC\Fonte\Unit1.pas</Transaction>
+    <Transaction>2021/01/24 17:24:11.000.091,=D:\Projetos\Posto ABC\Fonte\Unit1.pas</Transaction>
+    <Transaction>2021/01/24 17:24:38.000.092,=D:\Projetos\Posto ABC\Fonte\Unit1.pas</Transaction>
+    <Transaction>2021/01/24 17:25:37.000.656,D:\Projetos\Posto ABC\Fonte\Unit1.dfm=D:\Projetos\Posto ABC\Fonte\URegAba.dfm</Transaction>
+    <Transaction>2021/01/24 17:25:37.000.656,D:\Projetos\Posto ABC\Fonte\Unit1.pas=D:\Projetos\Posto ABC\Fonte\URegAba.pas</Transaction>
+    <Transaction>2021/01/24 17:25:58.000.479,=D:\Projetos\Posto ABC\Fonte\Unit1.pas</Transaction>
+    <Transaction>2021/01/24 17:26:37.000.206,D:\Projetos\Posto ABC\Fonte\Unit1.pas=D:\Projetos\Posto ABC\Fonte\URelAbaPer.pas</Transaction>
+    <Transaction>2021/01/24 17:26:37.000.206,D:\Projetos\Posto ABC\Fonte\Unit1.dfm=D:\Projetos\Posto ABC\Fonte\URelAbaPer.dfm</Transaction>
+    <Transaction>2021/01/26 02:44:13.599,=D:\Projetos\Posto ABC\Fonte\Unit1.pas</Transaction>
+    <Transaction>2021/01/26 02:45:25.725,D:\Projetos\Posto ABC\Fonte\URelForRepAbaPer.pas=D:\Projetos\Posto ABC\Fonte\Unit1.pas</Transaction>
+    <Transaction>2021/01/26 02:45:25.725,D:\Projetos\Posto ABC\Fonte\URelForRepAbaPer.dfm=D:\Projetos\Posto ABC\Fonte\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
